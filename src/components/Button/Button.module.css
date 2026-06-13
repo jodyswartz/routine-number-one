@@ -1,0 +1,67 @@
+.button {
+  min-height: 4rem;
+  display: inline-grid;
+  place-items: center;
+  border: 0;
+  border-radius: 999px;
+  color: var(--burgundy);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  touch-action: manipulation;
+  box-shadow:
+    0 0.7rem 1.25rem rgba(74, 40, 39, 0.14),
+    inset 0 0.0625rem 0 rgba(255, 255, 255, 0.62);
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    opacity 160ms ease,
+    background-color 160ms ease;
+}
+
+.button:active:not(:disabled) {
+  transform: translateY(0.125rem) scale(0.98);
+  box-shadow:
+    0 0.35rem 0.8rem rgba(74, 40, 39, 0.16),
+    inset 0 0.1rem 0.2rem rgba(74, 40, 39, 0.12);
+}
+
+.button:focus-visible {
+  outline: 0.18rem solid var(--mustard);
+  outline-offset: 0.22rem;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.46;
+}
+
+.standard {
+  width: 100%;
+  aspect-ratio: 1.55;
+}
+
+.slim {
+  min-height: 3rem;
+  padding: 0 1.7rem;
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.rose {
+  background: linear-gradient(180deg, var(--rose) 0%, #c98783 100%);
+}
+
+.mustard {
+  background: linear-gradient(180deg, var(--mustard) 0%, #d09d35 100%);
+}
+
+.ghost {
+  border: 1px solid rgba(90, 43, 48, 0.18);
+  background: rgba(255, 250, 238, 0.54);
+  box-shadow: 0 0.42rem 0.9rem rgba(74, 40, 39, 0.08);
+}

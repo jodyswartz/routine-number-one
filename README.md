@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/logo.png" alt="Routine No. 1 logo" width="220" />
+</p>
+
 # Routine No. 1
 
 > A minimalist counter for daily repetitions.

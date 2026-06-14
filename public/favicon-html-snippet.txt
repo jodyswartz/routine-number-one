@@ -1,0 +1,5 @@
+<link rel="icon" href="/routine-number-one/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="/routine-number-one/favicon-32x32.png" />
+<link rel="apple-touch-icon" href="/routine-number-one/apple-touch-icon.png" />
+<link rel="manifest" href="/routine-number-one/site.webmanifest" />
+<meta name="theme-color" content="#712b30" />

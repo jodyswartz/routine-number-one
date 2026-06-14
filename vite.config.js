@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/routine-no-1/',
+  base: '/routine-number-one/',
 });

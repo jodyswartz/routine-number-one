@@ -1,0 +1,11 @@
+{
+  "name": "Routine No. 1",
+  "short_name": "Routine",
+  "icons": [
+    { "src": "/routine-number-one/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/routine-number-one/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#712b30",
+  "background_color": "#f5ebdd",
+  "display": "standalone"
+}
